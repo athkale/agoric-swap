@@ -1,27 +1,35 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react';
 
-const Header = () => {
+const NavigationBar = () => {
   return (
-    <nav className="max-w-7xl mx-auto flex justify-between items-center p-6">
-      <div className="flex items-center space-x-8">
-        <Image
-          src="/logo.svg"
-          alt="Agoric"
-          width={120}
-          height={120}
-        />
-        
+    <nav className=" max-w-7xl mx-auto bg-transparent py-4 px-6">
+      <div className="container mx-auto flex justify-between items-center">
+        <a href="/">
+          <img src="/logo.svg" alt="logo" className="h-8 w-auto" />
+        </a>
+        <div className="flex space-x-4 text-sm items-center">
+          <a href="/introduce" className="text-gray-400 hover:text-black">
+            Introduce
+          </a>
+          <a href="/services" className="text-gray-400 hover:text-black">
+            Services
+          </a>
+          <a href="/advantage" className="text-gray-400 hover:text-black">
+            Advantage
+          </a>
+            <a href="/plans" className="text-gray-400 hover:text-black">
+            Plans
+          </a>
+          <a href="/about" className="text-gray-400 hover:text-black">
+            About
+          </a>
+          <button className="bg-gray-200 hover:bg-gray-400 text-black font-bold py-2 px-4 rounded-none border-black">
+            Connect Wallet
+          </button>
+        </div>
       </div>
-      <Link href="/login">
-        {/* Changed font size to small */}
-        <span className="bg-black text-white py-3 px-6 rounded-none text-sm font-normal mr-auto">
-          CONNECT WALLET
-        </span>
-      </Link>
     </nav>
   );
 };
 
-export default Header;
+export default NavigationBar;

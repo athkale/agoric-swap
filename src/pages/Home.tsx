@@ -4,10 +4,10 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-   <>
+   <div  className='bg-cover' style={{ backgroundImage: `url(/hero_bg.png)`}}>
    <Header />
-   <Hero /> 
-   </>
+   <Hero />
+   </div>
   )
 }
 
