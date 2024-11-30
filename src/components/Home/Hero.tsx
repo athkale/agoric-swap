@@ -1,18 +1,10 @@
 import React from 'react';
 
-{/* <img
-        src="/hero_bg.png"
-        alt="Hero Background"
-        className="w-full h-full object-"
-        style={{ maxHeight: '700px' }}
-      /> */}
-
 const Hero: React.FC = () => {
   return (
-    <div className="relative overflow-hidden " >
-      
-      <div className="max-w-7xl mx-auto ">
-        <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+    <div className="relative overflow-hidden">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
+        <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-1/2 lg:pb-28 xl:pb-32">
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="tracking-normal font-extrabold text-gray-900 text-6xl">
@@ -27,12 +19,20 @@ const Hero: React.FC = () => {
                 enjoying flexibility, speed, and transparency like never before.
               </p>
               <a href="/dashboard" rel="noopener noreferrer">
-              <button className="bg-black text-white py-3 px-8 rounded-none text-sm font-normal mr-auto mt-8 hover:bg-[#D06A48] hover:text-white">
-              Step Inside
-              </button>
-            </a>
+                <button className="bg-black text-white py-3 px-8 rounded-none text-base font-normal mr-auto mt-8 hover:bg-[#D06A48] hover:text-white">
+                  Get Started
+                </button>
+              </a>
             </div>
           </main>
+        </div>
+        <div className="lg:w-1/2">
+          <img
+            src="/hero1.png"
+            alt="Hero Background"
+            className="w-full h-full object-cover"
+            style={{ maxHeight: '700px' }}
+          />
         </div>
       </div>
     </div>
