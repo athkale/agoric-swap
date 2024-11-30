@@ -7,7 +7,7 @@ import { cookieToInitialState } from "wagmi";
 import { config } from "@/lib/wagmiConfig";
 
 export const metadata: Metadata = {
-  title: "Safe Connect",
+  title: "Agoric Swap",
   description: "Safe Portfolio Connect",
 };
 

@@ -9,7 +9,7 @@ export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
 if (!projectId) throw new Error("Project ID is not defined");
 
 export const metadata = {
-  name: "Safe Connect",
+  name: "Agoric Swap",
   description:
     "Your Secure Gateway to Seamless Crypto Management Across All Chains** 🚀🔐",
   url: "https://safeconnect.vercel.app",
