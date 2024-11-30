@@ -23,7 +23,7 @@ const NavigationBar = () => {
           <a href="/about" className="text-gray-400 hover:text-black">
             About
           </a>
-          <button className="bg-gray-200 hover:bg-gray-400 text-black font-bold py-2 px-4 rounded-none border-black">
+          <button className="bg-black hover:bg-gray-100 hover:text-black text-white font-bold py-2 px-4 rounded-none border-black">
             Connect Wallet
           </button>
         </div>
