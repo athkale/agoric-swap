@@ -7,7 +7,7 @@ import React from 'react';
         style={{ maxHeight: '700px' }}
       /> */}
 
-const HeroSection: React.FC = () => {
+const Hero: React.FC = () => {
   return (
     <div className="relative overflow-hidden " >
       
@@ -26,9 +26,9 @@ const HeroSection: React.FC = () => {
                 cross-chain lending platform. Unlock the potential of your digital assets while
                 enjoying flexibility, speed, and transparency like never before.
               </p>
-              <a href="/login" rel="noopener noreferrer">
+              <a href="/dashboard" rel="noopener noreferrer">
               <button className="bg-black text-white py-3 px-8 rounded-none text-sm font-normal mr-auto mt-8 hover:bg-[#D06A48] hover:text-white">
-                GET STARTED
+              Step Inside
               </button>
             </a>
             </div>
@@ -39,4 +39,4 @@ const HeroSection: React.FC = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;
