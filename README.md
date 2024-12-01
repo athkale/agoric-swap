@@ -1,5 +1,7 @@
 # XDigi Platform (Universal Identity Management System)
 
+UI Demo Link: https://www.loom.com/share/03e0a0b08e694035b141e175d7dade87
+
 > Revolutionizing digital identity management through blockchain technology
 
 ### 🎯 Vision
