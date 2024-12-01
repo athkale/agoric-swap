@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         </div>
         <div className="lg:w-1/2">
           <img
-            src="/hero1.png"
+            src="/hero1.svg"
             alt="Hero Background"
             className="w-full h-full object-cover"
             style={{ maxHeight: '700px' }}
