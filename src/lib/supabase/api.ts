@@ -67,8 +67,8 @@ export const credentialAPI = {
     const { data, error } = await supabase
       .from('credentials')
       .update({
-        verification_status: status,
-        verification_count: supabase.raw('verification_count + 1'),
+        verification_status: "verified",
+        verification_count: 1,
         last_verified: new Date().toISOString()
       })
       .eq('id', credentialId);

@@ -34,3 +34,7 @@ artifacts/
 cache/
 typechain-types/
 node_modules
+
+.branches
+.temp
+.env
