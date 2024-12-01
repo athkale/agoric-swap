@@ -80,7 +80,7 @@ export default function Hero() {
           </motion.h1>
           
           <motion.p 
-            className="text-base md:text-lg text-[#444444] mb-12 max-w-3xl mx-auto text-transparent pl-16"
+            className="text-base md:text-lg text-[#373737] mb-12 max-w-3xl mx-auto text-transparent pl-16"
             variants={itemVariants}
           >
             Take control of your identity with a universal system designed for privacy, interoperability, and trust.
